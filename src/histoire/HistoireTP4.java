@@ -15,5 +15,15 @@ public class HistoireTP4 {
 		marco.seFaireExtorquer();
 		marco.recevoir(15);
 		marco.boire();
-	}
+		System.out.println("");
+		Yakuza yaku = new Yakuza("Yaku le noir", "whisky", 30, "Warsong");
+		yaku.direBonjour();
+		yaku.extorquer(marco);
+		System.out.println("");
+		Ronin roro = new Ronin("Roro", "shochu", 60);
+		roro.direBonjour();
+		roro.donner(marco);
+		System.out.println("");
+		roro.provoquer(yaku);
+		}
 }
