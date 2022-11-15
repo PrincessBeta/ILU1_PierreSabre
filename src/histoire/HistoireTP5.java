@@ -19,5 +19,25 @@ public class HistoireTP5 {
 	roro.listerConnaissance();
 	yaku.listerConnaissance();
 	
+	Samourai akiki = new Samourai("Miyamoto", "Akimoto", "saké", 80);
+	akiki.faireConnaissanceAvec(marco);
+	akiki.listerConnaissance();
+	akiki.boire("thé");
+	
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
